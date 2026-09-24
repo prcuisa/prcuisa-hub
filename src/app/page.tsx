@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <main className="shell"><div className="top"><div className="brand">PRCUISA</div><Link className="btn" href="/login">Open Hub</Link></div><section className="card" style={{marginTop:'12vh'}}><p className="muted">PRCUISA HUB / MVP</p><h1 style={{fontSize:'clamp(42px,7vw,78px)',margin:'12px 0'}}>Run. Automate.<br/><span style={{color:'#009AA5'}}>Understand.</span></h1><p className="muted">One account. One workspace. Practical business systems.</p></section></main>}
